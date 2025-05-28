@@ -4,7 +4,6 @@
 	let { children } = $props();
 </script>
 
-
 <svelte:head>
 	<title>Taiko Raffle Roller</title>
 </svelte:head>
