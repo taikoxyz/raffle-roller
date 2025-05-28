@@ -1,0 +1,47 @@
+@import 'tailwindcss';
+@plugin "daisyui" {
+    themes: taiko;
+}
+@plugin "daisyui/theme" {
+  name: "taiko";
+  default: true; /* set as default */
+  prefersdark: true; /* set as default dark mode (prefers-color-scheme:dark) */
+  color-scheme: dark; /* color of browser-provided UI */
+
+  --color-base-100: oklch(17.38% 0.024 265.20);
+  --color-base-200: oklch(97.91% 0.000 0);
+  --color-base-300: oklch(17.38% 0.024 265.20);
+  --color-base-content: oklch(96.42% 0.000 0);
+  --color-primary: oklch(54.73% 0.225 352.52);
+  --color-primary-content: oklch(96.42% 0.000 0);
+  --color-secondary: oklch(61.90% 0.249 350.53);
+  --color-secondary-content: oklch(75.93% 0.011 261.78);
+  --color-accent: oklch(61.90% 0.249 350.53);
+  --color-accent-content: oklch(96.42% 0.000 0);
+  --color-neutral: oklch(30.90% 0.021 265.90);
+  --color-neutral-content: oklch(96.42% 0.000 0);
+  --color-info: oklch(70% 0.2 220);
+  --color-info-content: oklch(98% 0.01 220);
+  --color-success: oklch(65% 0.25 140);
+  --color-success-content: oklch(98% 0.01 140);
+  --color-warning: oklch(80% 0.25 80);
+  --color-warning-content: oklch(20% 0.05 80);
+  --color-error: oklch(65% 0.3 30);
+  --color-error-content: oklch(98% 0.01 30);
+
+  /* border radius */
+  --radius-selector: 1rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.5rem;
+
+  /* base sizes */
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+
+  /* border size */
+  --border: 1px;
+
+  /* effects */
+  --depth: 1;
+  --noise: 0;
+}
